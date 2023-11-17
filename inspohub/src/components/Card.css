@@ -1,0 +1,63 @@
+.Card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 16px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 500px;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .username {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+  
+  .edit-link {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  .text {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  
+  .card-footer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .like-btn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+
+  .likes {
+    margin-right: 10px;
+    font-weight: 1000;
+  }
+  
+  .like-btn:hover {
+    background-color: #2980b9;
+  }
+  
